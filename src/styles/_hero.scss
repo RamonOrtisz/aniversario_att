@@ -18,7 +18,7 @@
         height: 100%;
         background-color: #000;
         content: '';
-        opacity: .5;
+        opacity: .7;
     }
 
     &__text {
@@ -28,6 +28,7 @@
         line-height: 56px;
         font-weight: 800;
         text-align: center;
+        color: #fff;
     }
 
     &__logo {
