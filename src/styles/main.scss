@@ -1,6 +1,7 @@
 @use 'hero';
 @use 'components/infos_bar';
 @use 'components/buttons';
+@use 'event';
 
 * {
     margin: 0;
@@ -12,6 +13,16 @@
 
 body {
     background-color: #d3d3d3;
+}
+
+.rodape {
+    background-color: #102427;
+    color: #9c9c9c;
+    text-align: center;
+    font-size: 14px;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .container {
