@@ -1,0 +1,32 @@
+
+.audio-player {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  /* Estilos para o elemento de áudio */
+audio {
+    width: 100%;
+    outline: none;
+    background-color: transparent;
+}
+
+  /* Estilo para os controles do reprodutor de áudio */
+audio::-webkit-media-controls {
+    background-color: transparent;
+    border-radius: 6px;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-volume-slider {
+    background-color: rgb(230, 230, 230)
+}
+
+audio::-webkit-media-controls-volume-slider {
+    width: 100px;
+    background-color: transparent;
+}

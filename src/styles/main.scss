@@ -2,6 +2,7 @@
 @use 'components/infos_bar';
 @use 'components/buttons';
 @use 'event';
+@use 'song';
 
 * {
     margin: 0;
@@ -12,7 +13,7 @@
 }
 
 body {
-    background-color: #d3d3d3;
+    background-color: #102427;
 }
 
 .rodape {
